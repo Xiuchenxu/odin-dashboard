@@ -6,6 +6,16 @@
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 20px;
+
+}
+
+h2 {
+
+    font-size: 9px;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -266,6 +276,7 @@ li svg {
     min-height: 0;
 }
 
+
 .projects .stack {
     display: grid;
     grid-template-columns: repeat(
@@ -332,10 +343,11 @@ li svg {
     border: 1px solid #e1e5e9;
 
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
-
+    min-height: 200px;
     transition:
         transform 0.2s ease,
         box-shadow 0.2s ease;
+    border-left: 8px solid yellow;
 }
 
 .card:hover {
